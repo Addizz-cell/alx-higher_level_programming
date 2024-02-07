@@ -16,7 +16,14 @@ def load_from_json_file(filename):
     return []
 
 if __name__ == "__main__":
+    # Define the filename for the JSON file
     filename = "add_item.json"
+    
+    # Load the existing list from the JSON file
     my_list = load_from_json_file(filename)
+    
+    # Extend the list with command-line arguments
     my_list.extend(sys.argv[1:])
+    
+    # Save the updated list back to the JSON file
     save_to_json_file(my_list, filename)
