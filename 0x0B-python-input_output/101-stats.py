@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""A script Reads from standard input and computes metrics."""
 import sys
 
 def print_stats(total_size, status_codes):
