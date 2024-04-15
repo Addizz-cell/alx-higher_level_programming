@@ -1,1 +1,1 @@
-This repo contains high level programing python language from scratch
+new read me for loops
